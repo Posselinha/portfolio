@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--primary-bg);
+    color: var(--primary-white);
+
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    color: var(--primary-accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-accent);
+    text-decoration: underline;
+}

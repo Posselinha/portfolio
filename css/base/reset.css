@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: inherit;
+    background: none;
+    appearance: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
