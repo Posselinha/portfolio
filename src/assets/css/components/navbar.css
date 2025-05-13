@@ -1,0 +1,42 @@
+@keyframes wiggle {
+    50% {
+        transform: rotate(-15deg);
+    }
+}
+
+.sNav{
+    margin: 50px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.sNav-item {
+    display: inline-block;
+}
+
+.sNav-item span{
+    display: block;
+    position: absolute;
+    width: 4rem;
+    height: 2rem;
+    z-index: -1;
+    top: 5px;
+    left: calc(50% - 2rem);
+    clip-path: polygon(0% 0%, 90% 0%, 100% 70%, 20% 100%);
+}
+
+.sNav-item a {
+    position: relative;
+    font-size: 1.6rem;
+    z-index: 1;
+}
+
+.sNav-item a:hover span, .sNav-item a:focus span {
+    background-color: var(--compl-primary-accent);
+    border: 1px solid var(--darker-secondary-bg);
+    animation: 1.5s wiggle infinite;
+}
+
+.sNav-item a:hover {
+    text-decoration: none;
+}

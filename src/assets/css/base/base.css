@@ -21,9 +21,10 @@ img {
 a {
     color: var(--primary-accent);
     text-decoration: none;
+    transition: color 0.1s linear;
 }
 
 a:hover {
-    color: var(--secondary-accent);
+    color: var(--analog-primary-accent);
     text-decoration: underline;
 }

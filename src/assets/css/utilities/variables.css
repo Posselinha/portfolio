@@ -1,0 +1,31 @@
+:root {
+    /* Primary Colors */
+    --primary-accent:   #FF2E2E; /* Vibrant red for buttons, highlights, links */
+    --secondary-accent: #FFD700; /* Gold for call-to-action, hover states */
+    --tertiary-accent:  #1E90FF; /* Electric blue for subtle highlights, borders */
+    --primary-bg:       #1A1A1A; /* Deep black for primary background or dark text */
+    --secondary-bg:     #E0E0E0; /* Light gray for secondary backgrounds, dividers */
+    --primary-white:    #FFFFFF; /* Pure white for backgrounds, text on dark backgrounds */
+
+    /* Variations and Shades */
+    --shade-primary-accent:   #CC2525; /* Darker red for hover states on buttons or icons */
+    --shade-primary-bg:       #333333; /* Muted black for secondary dark backgrounds or text */
+    --shade-primary-white:    #F8F8F8; /* Off-white for subtle section backgrounds */
+    --shade-secondary-accent: #CCAC00; /* Darker gold for hover or active states */
+    --shade-tertiary-accent:  #4682B4; /* Steel blue for card backgrounds or subtle highlights */
+    --shade-secondary-bg:     #B0B0B0; /* Mid-gray for text or borders on light backgrounds */
+
+    /* Analogous and Complementary */
+    --analog-primary-accent:   #FF6666; /* Softer red for backgrounds or icons (analogous to primary red) */
+    --compl-secondary-accent:  #4682B4; /* Deep blue as a professional complementary color for text/buttons */
+    --compl-primary-accent:    #00CED1; /* Cyan as a playful complementary accent for links/highlights */
+    --analog-secondary-accent: #FFA500; /* Orange for warm emphasis or alerts (analogous to gold) */
+    --analog-tertiary-accent:  #00B7EB; /* Bright cyan for hover states or secondary buttons */
+    --darker-secondary-bg:     #262626; /* Near-black for dark text or shadow effects */
+
+    /* Feedback and States */
+    --success:  #32CD32; /* Lime green for success messages (inspired by positive UI feedback) */
+    --alert:    #FF2E2E; /* Same as primary red for error messages or alerts (consistent with danger theme) */
+    --warning:  #FFA500; /* Orange for warnings or caution states (matches analogous accent) */
+    --disabled: #696969; /* Dim gray for disabled buttons or inactive elements (muted, non-intrusive) */
+}
